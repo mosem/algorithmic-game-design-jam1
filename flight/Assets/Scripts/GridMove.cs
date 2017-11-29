@@ -24,7 +24,7 @@ class GridMove : MonoBehaviour {
         // Handle keyboard input.
 //		inputVelocity = new Vector2(Input.GetAxis(horizontalCtrl), Input.GetAxis(verticalCtrl));
 		inputVelocity = controller.GetInputVelocity();
-		Debug.Log(inputVelocity.ToString());
+		
 
     }
 
