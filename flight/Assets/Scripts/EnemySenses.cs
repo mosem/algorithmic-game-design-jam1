@@ -27,7 +27,7 @@ public class EnemySenses : MonoBehaviour {
 			headings[i] = playerBody.position - body.position;
 			if (i > 0)
 			{
-				if (headings [i].sqrMagnitude < headings [minIdx].sqrMagnitude) 
+				if (headings[i].sqrMagnitude < headings [minIdx].sqrMagnitude) 
 				{
 					minIdx = i;
 				}

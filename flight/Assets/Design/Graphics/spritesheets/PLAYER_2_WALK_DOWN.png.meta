@@ -1,0 +1,1000 @@
+fileFormatVersion: 2
+guid: 49b1ffe9284c041e6b46a3a1326c7f8c
+timeCreated: 1512329353
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PLAYER_2_WALK_DOWN_0
+    21300002: PLAYER_2_WALK_DOWN_1
+    21300004: PLAYER_2_WALK_DOWN_2
+    21300006: PLAYER_2_WALK_DOWN_3
+    21300008: PLAYER_2_WALK_DOWN_4
+    21300010: PLAYER_2_WALK_DOWN_5
+    21300012: PLAYER_2_WALK_DOWN_6
+    21300014: PLAYER_2_WALK_DOWN_7
+    21300016: PLAYER_2_WALK_DOWN_8
+    21300018: PLAYER_2_WALK_DOWN_9
+    21300020: PLAYER_2_WALK_DOWN_10
+    21300022: PLAYER_2_WALK_DOWN_11
+    21300024: PLAYER_2_WALK_DOWN_12
+    21300026: PLAYER_2_WALK_DOWN_13
+    21300028: PLAYER_2_WALK_DOWN_14
+    21300030: PLAYER_2_WALK_DOWN_15
+    21300032: PLAYER_2_WALK_DOWN_16
+    21300034: PLAYER_2_WALK_DOWN_17
+    21300036: PLAYER_2_WALK_DOWN_18
+    21300038: PLAYER_2_WALK_DOWN_19
+    21300040: PLAYER_2_WALK_DOWN_20
+    21300042: PLAYER_2_WALK_DOWN_21
+    21300044: PLAYER_2_WALK_DOWN_22
+    21300046: PLAYER_2_WALK_DOWN_23
+    21300048: PLAYER_2_WALK_DOWN_24
+    21300050: PLAYER_2_WALK_DOWN_25
+    21300052: PLAYER_2_WALK_DOWN_26
+    21300054: PLAYER_2_WALK_DOWN_27
+    21300056: PLAYER_2_WALK_DOWN_28
+    21300058: PLAYER_2_WALK_DOWN_29
+    21300060: PLAYER_2_WALK_DOWN_30
+    21300062: PLAYER_2_WALK_DOWN_31
+    21300064: PLAYER_2_WALK_DOWN_32
+    21300066: PLAYER_2_WALK_DOWN_33
+    21300068: PLAYER_2_WALK_DOWN_34
+    21300070: PLAYER_2_WALK_DOWN_35
+    21300072: PLAYER_2_WALK_DOWN_36
+    21300074: PLAYER_2_WALK_DOWN_37
+    21300076: PLAYER_2_WALK_DOWN_38
+    21300078: PLAYER_2_WALK_DOWN_39
+    21300080: PLAYER_2_WALK_DOWN_40
+    21300082: PLAYER_2_WALK_DOWN_41
+    21300084: PLAYER_2_WALK_DOWN_42
+    21300086: PLAYER_2_WALK_DOWN_43
+    21300088: PLAYER_2_WALK_DOWN_44
+    21300090: PLAYER_2_WALK_DOWN_45
+    21300092: PLAYER_2_WALK_DOWN_46
+    21300094: PLAYER_2_WALK_DOWN_47
+    21300096: PLAYER_2_WALK_DOWN_48
+    21300098: PLAYER_2_WALK_DOWN_49
+    21300100: PLAYER_2_WALK_DOWN_50
+    21300102: PLAYER_2_WALK_DOWN_51
+    21300104: PLAYER_2_WALK_DOWN_52
+    21300106: PLAYER_2_WALK_DOWN_53
+    21300108: PLAYER_2_WALK_DOWN_54
+    21300110: PLAYER_2_WALK_DOWN_55
+    21300112: PLAYER_2_WALK_DOWN_56
+    21300114: PLAYER_2_WALK_DOWN_57
+    21300116: PLAYER_2_WALK_DOWN_58
+    21300118: PLAYER_2_WALK_DOWN_59
+    21300120: PLAYER_2_WALK_DOWN_60
+    21300122: PLAYER_2_WALK_DOWN_61
+    21300124: PLAYER_2_WALK_DOWN_62
+    21300126: PLAYER_2_WALK_DOWN_63
+    21300128: PLAYER_2_WALK_DOWN_64
+    21300130: PLAYER_2_WALK_DOWN_65
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_9
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_11
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_12
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_14
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_15
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_16
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_17
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_18
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 210.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_21
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_22
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_23
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_24
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_25
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_26
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_27
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_28
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_29
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_30
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_31
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_32
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_33
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_34
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_35
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_36
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_37
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 140.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_39
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_40
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_41
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_42
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_43
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_44
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_45
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_46
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_47
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_48
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_49
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_50
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_51
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_52
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_53
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_54
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_55
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_56
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 70.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_58
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_59
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_60
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_61
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_62
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_63
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_64
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 0.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_WALK_DOWN_65
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0.75
+        width: 26
+        height: 70.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1000 @@
+fileFormatVersion: 2
+guid: 5c9a30a4a183c463a9c4437270f9b6b1
+timeCreated: 1512333747
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PLAYER_2_IDLE_0
+    21300002: PLAYER_2_IDLE_1
+    21300004: PLAYER_2_IDLE_2
+    21300006: PLAYER_2_IDLE_3
+    21300008: PLAYER_2_IDLE_4
+    21300010: PLAYER_2_IDLE_5
+    21300012: PLAYER_2_IDLE_6
+    21300014: PLAYER_2_IDLE_7
+    21300016: PLAYER_2_IDLE_8
+    21300018: PLAYER_2_IDLE_9
+    21300020: PLAYER_2_IDLE_10
+    21300022: PLAYER_2_IDLE_11
+    21300024: PLAYER_2_IDLE_12
+    21300026: PLAYER_2_IDLE_13
+    21300028: PLAYER_2_IDLE_14
+    21300030: PLAYER_2_IDLE_15
+    21300032: PLAYER_2_IDLE_16
+    21300034: PLAYER_2_IDLE_17
+    21300036: PLAYER_2_IDLE_18
+    21300038: PLAYER_2_IDLE_19
+    21300040: PLAYER_2_IDLE_20
+    21300042: PLAYER_2_IDLE_21
+    21300044: PLAYER_2_IDLE_22
+    21300046: PLAYER_2_IDLE_23
+    21300048: PLAYER_2_IDLE_24
+    21300050: PLAYER_2_IDLE_25
+    21300052: PLAYER_2_IDLE_26
+    21300054: PLAYER_2_IDLE_27
+    21300056: PLAYER_2_IDLE_28
+    21300058: PLAYER_2_IDLE_29
+    21300060: PLAYER_2_IDLE_30
+    21300062: PLAYER_2_IDLE_31
+    21300064: PLAYER_2_IDLE_32
+    21300066: PLAYER_2_IDLE_33
+    21300068: PLAYER_2_IDLE_34
+    21300070: PLAYER_2_IDLE_35
+    21300072: PLAYER_2_IDLE_36
+    21300074: PLAYER_2_IDLE_37
+    21300076: PLAYER_2_IDLE_38
+    21300078: PLAYER_2_IDLE_39
+    21300080: PLAYER_2_IDLE_40
+    21300082: PLAYER_2_IDLE_41
+    21300084: PLAYER_2_IDLE_42
+    21300086: PLAYER_2_IDLE_43
+    21300088: PLAYER_2_IDLE_44
+    21300090: PLAYER_2_IDLE_45
+    21300092: PLAYER_2_IDLE_46
+    21300094: PLAYER_2_IDLE_47
+    21300096: PLAYER_2_IDLE_48
+    21300098: PLAYER_2_IDLE_49
+    21300100: PLAYER_2_IDLE_50
+    21300102: PLAYER_2_IDLE_51
+    21300104: PLAYER_2_IDLE_52
+    21300106: PLAYER_2_IDLE_53
+    21300108: PLAYER_2_IDLE_54
+    21300110: PLAYER_2_IDLE_55
+    21300112: PLAYER_2_IDLE_56
+    21300114: PLAYER_2_IDLE_57
+    21300116: PLAYER_2_IDLE_58
+    21300118: PLAYER_2_IDLE_59
+    21300120: PLAYER_2_IDLE_60
+    21300122: PLAYER_2_IDLE_61
+    21300124: PLAYER_2_IDLE_62
+    21300126: PLAYER_2_IDLE_63
+    21300128: PLAYER_2_IDLE_64
+    21300130: PLAYER_2_IDLE_65
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_5
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_7
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_10
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_11
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_13
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_14
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_15
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_17
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 198
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_19
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_20
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_21
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_23
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_24
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_25
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_26
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_27
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_28
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_29
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_30
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_31
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_32
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_33
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_35
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 132
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_37
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_38
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_39
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_40
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_41
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_42
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_43
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_45
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_46
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_47
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_48
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_49
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_50
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_51
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_52
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_53
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 66
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_55
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_56
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_57
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_58
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_59
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_60
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_61
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_62
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_63
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_64
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PLAYER_2_IDLE_65
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
