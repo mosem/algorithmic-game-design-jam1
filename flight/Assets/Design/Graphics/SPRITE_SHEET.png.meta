@@ -1,0 +1,1196 @@
+fileFormatVersion: 2
+guid: 280803818f4ac4403b7415d1ffd444f7
+timeCreated: 1512240034
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SPRITE_SHEET_0
+    21300002: SPRITE_SHEET_1
+    21300004: SPRITE_SHEET_2
+    21300006: SPRITE_SHEET_3
+    21300008: SPRITE_SHEET_4
+    21300010: SPRITE_SHEET_5
+    21300012: SPRITE_SHEET_6
+    21300014: SPRITE_SHEET_7
+    21300016: SPRITE_SHEET_8
+    21300018: SPRITE_SHEET_9
+    21300020: SPRITE_SHEET_10
+    21300022: SPRITE_SHEET_11
+    21300024: SPRITE_SHEET_12
+    21300026: SPRITE_SHEET_13
+    21300028: SPRITE_SHEET_14
+    21300030: SPRITE_SHEET_15
+    21300032: SPRITE_SHEET_16
+    21300034: SPRITE_SHEET_17
+    21300036: SPRITE_SHEET_18
+    21300038: SPRITE_SHEET_19
+    21300040: SPRITE_SHEET_20
+    21300042: SPRITE_SHEET_21
+    21300044: SPRITE_SHEET_22
+    21300046: SPRITE_SHEET_23
+    21300048: SPRITE_SHEET_24
+    21300050: SPRITE_SHEET_25
+    21300052: SPRITE_SHEET_26
+    21300054: SPRITE_SHEET_27
+    21300056: SPRITE_SHEET_28
+    21300058: SPRITE_SHEET_29
+    21300060: SPRITE_SHEET_30
+    21300062: SPRITE_SHEET_31
+    21300064: SPRITE_SHEET_32
+    21300066: SPRITE_SHEET_33
+    21300068: SPRITE_SHEET_34
+    21300070: SPRITE_SHEET_35
+    21300072: SPRITE_SHEET_36
+    21300074: SPRITE_SHEET_37
+    21300076: SPRITE_SHEET_38
+    21300078: SPRITE_SHEET_39
+    21300080: SPRITE_SHEET_40
+    21300082: SPRITE_SHEET_41
+    21300084: SPRITE_SHEET_42
+    21300086: SPRITE_SHEET_43
+    21300088: SPRITE_SHEET_44
+    21300090: SPRITE_SHEET_45
+    21300092: SPRITE_SHEET_46
+    21300094: SPRITE_SHEET_47
+    21300096: SPRITE_SHEET_48
+    21300098: SPRITE_SHEET_49
+    21300100: SPRITE_SHEET_50
+    21300102: SPRITE_SHEET_51
+    21300104: SPRITE_SHEET_52
+    21300106: SPRITE_SHEET_53
+    21300108: SPRITE_SHEET_54
+    21300110: SPRITE_SHEET_55
+    21300112: SPRITE_SHEET_56
+    21300114: SPRITE_SHEET_57
+    21300116: SPRITE_SHEET_58
+    21300118: SPRITE_SHEET_59
+    21300120: SPRITE_SHEET_60
+    21300122: SPRITE_SHEET_61
+    21300124: SPRITE_SHEET_62
+    21300126: SPRITE_SHEET_63
+    21300128: SPRITE_SHEET_64
+    21300130: SPRITE_SHEET_65
+    21300132: SPRITE_SHEET_66
+    21300134: SPRITE_SHEET_67
+    21300136: SPRITE_SHEET_68
+    21300138: SPRITE_SHEET_69
+    21300140: SPRITE_SHEET_70
+    21300142: SPRITE_SHEET_71
+    21300144: SPRITE_SHEET_72
+    21300146: SPRITE_SHEET_73
+    21300148: SPRITE_SHEET_74
+    21300150: SPRITE_SHEET_75
+    21300152: SPRITE_SHEET_76
+    21300154: SPRITE_SHEET_77
+    21300156: SPRITE_SHEET_78
+    21300158: SPRITE_SHEET_79
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPRITE_SHEET_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 382.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 382.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 382.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 382.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 382.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 382.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 382.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_7
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 382.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_8
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 382.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_9
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 382.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_10
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 382.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_11
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 382.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 382.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_13
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 382.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_14
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 382.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_15
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 382.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_17
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 287.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_18
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 287.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_19
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 287.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_20
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 287.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_21
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 287.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_22
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 287.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_23
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 287.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_24
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 287.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_25
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 287.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_26
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 287.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_27
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 287.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_28
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 287.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_29
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 287.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_30
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 287.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_31
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 287.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_33
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 192.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_34
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 192.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_35
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 192.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_36
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 192.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_37
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 192.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_38
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 192.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_39
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 192.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_40
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 192.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_41
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 192.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_42
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 192.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_43
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 192.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_44
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 192.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_45
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 192.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_46
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 192.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_47
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 192.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_49
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 97.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_50
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 97.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_51
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 97.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_52
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 97.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_53
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 97.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_54
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 97.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_55
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 97.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_56
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 97.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_57
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 97.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_58
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 97.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_59
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 97.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_60
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 97.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_61
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 97.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_62
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 97.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_63
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 97.4
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.4000015
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_65
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2.4000015
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_66
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 2.4000015
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_67
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2.4000015
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_68
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2.4000015
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_69
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2.4000015
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_70
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 2.4000015
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_71
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 2.4000015
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_72
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 2.4000015
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_73
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 2.4000015
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_74
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 2.4000015
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_75
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 2.4000015
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_76
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 2.4000015
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_77
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 2.4000015
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_78
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 2.4000015
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_79
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 2.4000015
+        width: 53.625
+        height: 95.6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

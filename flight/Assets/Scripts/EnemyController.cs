@@ -15,7 +15,7 @@ public class EnemyController : Controller {
 	{
 		Vector2 closestEnemyHeading = senses.GetClosestPlayerHeading();
 		Vector2 inputVelocity =  (closestEnemyHeading.magnitude <= VISION_THRESH) ? closestEnemyHeading 
-					: new Vector2(Random.Range(-10, 10), Random.Range(-10, 10));
+					: new Vector2(Random.Range(-1, 1), Random.Range(-1, 1));
 			return DAMP_FACT*inputVelocity;
 	}
 
