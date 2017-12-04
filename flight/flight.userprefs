@@ -4,7 +4,7 @@
     <Files>
       <File FileName="Assets/Scripts/RepeatSprite.cs" Line="1" Column="1" />
       <File FileName="../../../../Bezalel/2017-8/games/ex-2/BatCave-Part2/Assets/Scripts/batcave/Bat.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GridMove.cs" Line="49" Column="35" />
+      <File FileName="Assets/Scripts/GridMove.cs" Line="44" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
