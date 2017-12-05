@@ -14,12 +14,12 @@ public class PlayerController : Controller {
 
 	public void Awake()
     {
-        Debug.Log("Keyboard.Awake");
+
     }
 
     public void OnDestroy()
     {
-        Debug.Log("Keyboard.OnDestroy");
+
     }
 }
 

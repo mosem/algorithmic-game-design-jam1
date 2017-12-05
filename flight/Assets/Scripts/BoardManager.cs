@@ -11,13 +11,15 @@ namespace Flight {
 
 	public Object[] landmarks;
 	public GameObject[] players;
+	public GameObject footprint;
 	public int nLandmarks = 16;
 	[SerializeField] private static float boardWidth = 40.0f;
 	[SerializeField] private static float boardHeight = 40.0f;
 	[SerializeField] private static float boardPadding = 5.0f;
+	[SerializeField] private float footprintsDelay = 10.0f;
 
-	private bool[] isPlayerCloned;
 	private List<GameObject>[] playersClones;
+	private List<GameObject>[] playersFootprints;
 	public Region[] playersRegion;
 
 		private Vector3 shiftHorizontalVec = new Vector3(boardWidth,0);
@@ -27,20 +29,25 @@ namespace Flight {
 	void Start () {
 		InitLandmarks();
 		players = GameObject.FindGameObjectsWithTag("Player");
-		isPlayerCloned = new bool[players.Length];
 		playersRegion = new Region[players.Length];
 		playersClones = new List<GameObject>[players.Length];
 		for (int i = 0; i < players.Length; i++)
 		{
-			isPlayerCloned[i] = false;
 			playersRegion[i] = CheckRegion(players[i]);
 			playersClones[i] = new List<GameObject>();
 		}
+		footprint = Resources.Load("footprint", typeof(GameObject)) as GameObject;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 			updatePlayers();
+	}
+
+	public void AddFootprint(GameObject footprint, Vector3 position, float lifetime)
+	{
+		GameObject playerFootprint = Instantiate(footprint, position, Quaternion.identity);
+		Destroy(playerFootprint, lifetime);
 	}
 			
 	private void InitLandmarks() {
@@ -61,26 +68,33 @@ namespace Flight {
 		}
 	}
 
-	private void updatePlayers() {
-			for (int i =0; i < players.Length; i++) 
+	private void updatePlayers() 
+	{
+			for (int playerIdx =0; playerIdx < players.Length; playerIdx++) 
 			{
-				Region playerNewRegion = CheckRegion(players[i]);
-				if (playerNewRegion != playersRegion[i]) // if region changed - update player's region and clones (and position if needed)
-				{
-					playersRegion[i] = playerNewRegion;
-					DestroyAndRemoveClones(i); // destroy and clear all current clones
-					if (playerNewRegion == Region.OutOfBounds) // if out of bounds telleport player
-					{
-						TelleportPlayer(players[i]);
-					}
-					else if (playerNewRegion != Region.Center) // if not in center create new clones according to new region
-					{
-						playersClones[i].AddRange(CloneGameObject(players[i], playerNewRegion));
-					}
-				}
+				UpdatePlayerRegion(playerIdx);
 			}
 	}
 	
+	
+	private void UpdatePlayerRegion(int playerIdx)
+	{
+		Region playerNewRegion = CheckRegion(players[playerIdx]);
+		if (playerNewRegion != playersRegion[playerIdx]) // if region changed - update player's region and clones (and position if needed)
+		{
+				playersRegion[playerIdx] = playerNewRegion;
+				DestroyAndRemoveClones(playerIdx); // destroy and clear all current clones
+			if (playerNewRegion == Region.OutOfBounds) // if out of bounds telleport player
+			{
+					TelleportPlayer(players[playerIdx]);
+			}
+			else if (playerNewRegion != Region.Center) // if not in center create new clones according to new region
+			{
+					playersClones[playerIdx].AddRange(CloneGameObject(players[playerIdx], playerNewRegion));
+			}
+		}
+	}
+
 	// Destroy clones' GameObjects and remove clones from list
 	private void DestroyAndRemoveClones(int playerIdx)
 	{
