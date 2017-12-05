@@ -54,7 +54,7 @@ namespace Flight {
 					float localBottomBorder = j*localGridHeight;
 					Vector3 rand_pos = new Vector3(Random.RandomRange(localLeftBorder-boardWidth/2,localLeftBorder+localGridWidth-boardWidth/2), Random.RandomRange(localBottomBorder-boardWidth/2,localBottomBorder + localGridHeight - boardWidth/2));
 					GameObject obj = Instantiate(landmarks[Random.Range(0,landmarks.Length)], rand_pos,  Quaternion.identity) as GameObject;
-					CloneGameObject(obj);
+					CloneGameObject(obj, CheckRegion(obj));
 					obj.transform.SetParent(transform);
 			}
 			
@@ -67,7 +67,7 @@ namespace Flight {
 				Region playerNewRegion = CheckRegion(players[i]);
 				if (playerNewRegion != playersRegion[i]) // if region changed - update player's region and clones (and position if needed)
 				{
-					
+					playersRegion[i] = playerNewRegion;
 					DestroyAndRemoveClones(i); // destroy and clear all current clones
 					if (playerNewRegion == Region.OutOfBounds) // if out of bounds telleport player
 					{
@@ -75,9 +75,8 @@ namespace Flight {
 					}
 					else if (playerNewRegion != Region.Center) // if not in center create new clones according to new region
 					{
-						playersClones[i].AddRange(CloneGameObject(players[i]));
+						playersClones[i].AddRange(CloneGameObject(players[i], playerNewRegion));
 					}
-					playersRegion[i] = playerNewRegion;
 				}
 			}
 	}
@@ -203,9 +202,8 @@ namespace Flight {
 		return OutOfBoundsRegion.InBounds;
 	}
 	
-	private List<GameObject> CloneGameObject(GameObject obj) {
+		private List<GameObject> CloneGameObject(GameObject obj, Region regionOfObj) {
 			List<GameObject> clones = new List<GameObject>();
-			Region regionOfObj = CheckRegion(obj);
 			if (regionOfObj == Region.Left || regionOfObj == Region.TopLeft || regionOfObj == Region.BottomLeft) // object is in left margin
 			{
 				//clone object and shift right
