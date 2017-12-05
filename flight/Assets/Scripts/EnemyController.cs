@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 
 namespace Flight {
-[CreateAssetMenu(menuName = "Controller/EnemyController")]
 
 public class EnemyController : Controller {
 

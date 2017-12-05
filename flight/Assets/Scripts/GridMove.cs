@@ -16,13 +16,13 @@ class GridMove : MonoBehaviour {
 
 	public Controller controller;
 
-	public bool facingRight;
+	[SerializeField] private bool facingRight;
 	
-	public float speed = 1.0f;
+	[SerializeField] private float speed = 1.0f;
 
-	public float horizontalLimit = 10;
+	[SerializeField] private float horizontalLimit = 20;
 
-	public float verticalLimit = 10;
+	[SerializeField] private float verticalLimit = 20;
 
 
 	public int dir;
@@ -40,6 +40,8 @@ class GridMove : MonoBehaviour {
         // Handle keyboard input.
 //		inputVelocity = new Vector2(Input.GetAxis(horizontalCtrl), Input.GetAxis(verticalCtrl));
 		inputVelocity = controller.GetInputVelocity();
+
+		// Set direction for Animator
 		dir = 0;
 		if (inputVelocity.x != 0) {
 			dir = inputVelocity.x > 0 ? (int)Direction.East : (int)Direction.West;
@@ -59,12 +61,14 @@ class GridMove : MonoBehaviour {
 			transform.localRotation = Quaternion.Euler(0, 0, 0);
 		}
 
-		float horizontal = inputVelocity.x * speed * Time.deltaTime;
-		float vertical = inputVelocity.y * speed * Time.deltaTime;
-		Vector3 pos = transform.position;
-		pos.x = Mathf.Clamp(pos.x + horizontal, -horizontalLimit, horizontalLimit);
-		pos.y = Mathf.Clamp(pos.y + vertical, -verticalLimit, verticalLimit);
-		transform.position = pos;
+		
+
+//		float horizontal = inputVelocity.x * speed * Time.deltaTime;
+//		float vertical = inputVelocity.y * speed * Time.deltaTime;
+//		Vector3 pos = transform.position;
+//		pos.x = Mathf.Clamp(pos.x + horizontal, -horizontalLimit, horizontalLimit);
+//		pos.y = Mathf.Clamp(pos.y + vertical, -verticalLimit, verticalLimit);
+//		transform.position = pos;
     }
 
 

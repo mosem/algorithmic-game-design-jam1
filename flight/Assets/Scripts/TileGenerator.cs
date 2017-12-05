@@ -4,10 +4,10 @@ using System.Collections;
 namespace Flight{
 
 public class TileGenerator : MonoBehaviour {
-	public int size_x;
-	public int size_y;
-	public float tileSize;
-	public int tileResolution;
+	[SerializeField] private int size_x;
+	[SerializeField] private int size_y;
+	[SerializeField] private float tileSize;
+	[SerializeField] private int tileResolution;
 	
 	public Texture2D texture;
 	
