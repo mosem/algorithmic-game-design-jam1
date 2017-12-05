@@ -67,18 +67,29 @@ namespace Flight {
 				Region playerNewRegion = CheckRegion(players[i]);
 				if (playerNewRegion != playersRegion[i]) // if region changed - update player's region and clones (and position if needed)
 				{
-					playersClones[i].Clear(); // clear all current clones
+					
+					DestroyAndRemoveClones(i); // destroy and clear all current clones
 					if (playerNewRegion == Region.OutOfBounds) // if out of bounds telleport player
 					{
 						TelleportPlayer(players[i]);
 					}
 					else if (playerNewRegion != Region.Center) // if not in center create new clones according to new region
 					{
-						
+						playersClones[i].AddRange(CloneGameObject(players[i]));
 					}
 					playersRegion[i] = playerNewRegion;
 				}
 			}
+	}
+	
+	// Destroy clones' GameObjects and remove clones from list
+	private void DestroyAndRemoveClones(int playerIdx)
+	{
+		foreach (GameObject clone in playersClones[playerIdx])
+		{
+			Destroy(clone);
+		}
+		playersClones[playerIdx].Clear();
 	}
 
 	private void TelleportPlayer(GameObject player) {
@@ -192,9 +203,8 @@ namespace Flight {
 		return OutOfBoundsRegion.InBounds;
 	}
 	
-	private bool CloneGameObject(GameObject obj) {
-			
-			bool retVal = false;
+	private List<GameObject> CloneGameObject(GameObject obj) {
+			List<GameObject> clones = new List<GameObject>();
 			Region regionOfObj = CheckRegion(obj);
 			if (regionOfObj == Region.Left || regionOfObj == Region.TopLeft || regionOfObj == Region.BottomLeft) // object is in left margin
 			{
@@ -202,14 +212,14 @@ namespace Flight {
 				Vector3 shiftedRightPos = obj.transform.position + shiftHorizontalVec;
 				GameObject shiftedRightObj = Instantiate(obj, shiftedRightPos,  Quaternion.identity) as GameObject;;
 				shiftedRightObj.transform.SetParent(transform);
-				retVal = true;
+				clones.Add(shiftedRightObj);
 				if (regionOfObj == Region.BottomLeft) // object is in bottom left corner
 				{
 					// clone object and shift up and right
 					Vector3 shiftedUpAndRightPos = obj.transform.position + shiftVerticalVec + shiftVerticalVec;
 					GameObject shiftedUpAndRightObj = Instantiate(obj,shiftedUpAndRightPos,  Quaternion.identity) as GameObject;;
 					shiftedUpAndRightObj.transform.SetParent(transform);
-					retVal =  true;
+					clones.Add(shiftedUpAndRightObj);
 				}
 				else if (regionOfObj == Region.TopLeft) // object is in top left corner
 				{
@@ -217,7 +227,7 @@ namespace Flight {
 					Vector3 shiftedDownAndRightPos = obj.transform.position + shiftHorizontalVec - shiftVerticalVec;
 					GameObject shiftedDownAndRightObj = Instantiate(obj,shiftedDownAndRightPos,  Quaternion.identity) as GameObject;;
 					shiftedDownAndRightObj.transform.SetParent(transform);
-					retVal = true;
+					clones.Add(shiftedDownAndRightObj);
 				}
 			}
 			if (regionOfObj == Region.Right || regionOfObj == Region.TopRight || regionOfObj == Region.BottomRight) // object is in right margin
@@ -226,22 +236,22 @@ namespace Flight {
 				Vector3 shiftedLeftPos = obj.transform.position - shiftHorizontalVec;
 				GameObject shiftedLeftObj = Instantiate(obj, shiftedLeftPos, Quaternion.identity) as GameObject;;
 				shiftedLeftObj.transform.SetParent(transform);
-				retVal = true;
+				clones.Add(shiftedLeftObj);
 				if (regionOfObj == Region.BottomRight) // object is in bottom right corner
 				{
 					// clone object and shift up and left
 					Vector3 shiftedUpAndLeftPos = obj.transform.position - shiftHorizontalVec + shiftVerticalVec;
 					GameObject shiftedUpAndLeftObj = Instantiate(obj,shiftedUpAndLeftPos, Quaternion.identity) as GameObject;;
 					shiftedUpAndLeftObj.transform.SetParent(transform);
-
+					clones.Add(shiftedUpAndLeftObj);
 				}
 				else if (regionOfObj == Region.TopRight) // object is in top right corner 
 				{
 					// clone object and shift down and left
-					Vector3 shiftedDownPos = obj.transform.position - shiftVerticalVec - shiftVerticalVec;
-					GameObject shiftedDownObj = Instantiate(obj,shiftedDownPos, Quaternion.identity) as GameObject;;
-					shiftedDownObj.transform.SetParent(transform);
-
+					Vector3 shiftedDownAndLeftPos = obj.transform.position - shiftVerticalVec - shiftVerticalVec;
+					GameObject shiftedDownAndLeftObj = Instantiate(obj,shiftedDownAndLeftPos, Quaternion.identity) as GameObject;;
+					shiftedDownAndLeftObj.transform.SetParent(transform);
+					clones.Add(shiftedDownAndLeftObj);
 				}
 			}
 			if (regionOfObj == Region.Bottom || regionOfObj == Region.BottomLeft || regionOfObj == Region.BottomRight) // object is in bottom margin (can be cloned previously horizontally and diagnoaly)
@@ -250,7 +260,7 @@ namespace Flight {
 				Vector3 shiftedUpPos = obj.transform.position + shiftVerticalVec;
 				GameObject shiftedUpObj = Instantiate(obj,shiftedUpPos, Quaternion.identity) as GameObject;;
 				shiftedUpObj.transform.SetParent(transform);
-				retVal = true;
+				clones.Add(shiftedUpObj);
 			}
 			if (regionOfObj == Region.Top || regionOfObj == Region.TopLeft || regionOfObj == Region.TopRight) // object is in top margin (can be cloned previously horizontally and diagnoaly)
 			{
@@ -258,9 +268,9 @@ namespace Flight {
 				Vector3 shiftedDownPos = obj.transform.position - shiftVerticalVec;
 				GameObject shiftedDownObj = Instantiate(obj,shiftedDownPos, Quaternion.identity) as GameObject;;
 				shiftedDownObj.transform.SetParent(transform);
-				retVal = true;
+				clones.Add(shiftedDownObj);
 			}
-			return retVal;
+			return clones;
 	}
 }
 }
