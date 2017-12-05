@@ -72,8 +72,6 @@ public class TileGenerator : MonoBehaviour {
 	private Color[][] ChopUpTiles() {
 		int numTilesPerRow = texture.width / tileResolution;
 		int numRows = texture.height / tileResolution;
-			Debug.Log(numTilesPerRow);
-			Debug.Log(numRows);
 		Color[][] tiles = new Color[numTilesPerRow*numRows][];
 		
 		for(int y=0; y<numRows; y++) {
