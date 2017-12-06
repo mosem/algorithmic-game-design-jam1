@@ -18,6 +18,8 @@ namespace Flight {
 		[SerializeField] private static float boardHeight = 40.0f;
 		[SerializeField] private static float boardPadding = 5.0f;
 		[SerializeField] private float footprintsDelay = 10.0f;
+		[SerializeField] private float initialDistanceThreshold = 7.0f;
+		[SerializeField] private int nTriesToPlacePlayer = 10;
 
 		private List<List<GameObject>> playersClones;
 		private List<GameObject>[] playersFootprints;
@@ -39,10 +41,16 @@ namespace Flight {
 			players.AddRange(GameObject.FindGameObjectsWithTag("Player"));
 			playersRegion = new List<Region>(players.Count);
 			playersClones = new List<List<GameObject>>(players.Count);
-			for (int i = 0; i < players.Count; i++)
+			for (int playerIdx = 0; playerIdx < players.Count; playerIdx++)
 			{
-				playersRegion.Add(CheckRegion(players[i]));
+				players[playerIdx].transform.position = GetRandomPositionOnBoard(playerIdx);
+				Region playerRegion = CheckRegion(players[playerIdx]);
+				playersRegion.Add(playerRegion);
 				playersClones.Add(new List<GameObject>());
+				if (playerRegion != Region.Center) // if not in center create new clones according to new region
+				{
+					playersClones[playerIdx].AddRange(CloneGameObject(players[playerIdx], playerRegion));
+				}
 			}
 			footprint = Resources.Load("footprint", typeof(GameObject)) as GameObject;
 			enemies = new List<GameObject>();
@@ -72,7 +80,42 @@ namespace Flight {
 			enemiesRegion.Add(CheckRegion(enemyObject));
 			enemiesClones.Add(new List<GameObject>());
 		}
-				
+
+		private Vector3 GetRandomPositionOnBoard(int thisPlayerIdx)
+		{	
+			Vector3 potentialPosition = new Vector3(Random.RandomRange(-boardWidth/2, boardWidth/2), Random.RandomRange(-boardHeight/2, boardHeight/2));
+			if (thisPlayerIdx != 0)
+			{
+				for (int i = 0; i < nTriesToPlacePlayer; i++)
+				{
+					if (checkPlayerPositionVsOtherPlayersPositions(potentialPosition, thisPlayerIdx)) 
+					{
+						break;
+					} 
+					else {
+						potentialPosition = new Vector3(Random.RandomRange(-boardWidth/2, boardWidth/2), Random.RandomRange(-boardHeight/2, boardHeight/2));
+					}
+				}
+			}
+			return potentialPosition;
+		}
+
+		// returns true if it is far away from other players, otherwise returns false
+		private bool checkPlayerPositionVsOtherPlayersPositions(Vector3 pos, int thisPlayerIdx)
+		{
+			for (int playerIdx = 0; playerIdx < thisPlayerIdx; playerIdx++)
+			{
+				foreach (GameObject clone in playersClones[playerIdx])
+				{
+					if (Vector3.Distance(clone.transform.position, pos) < initialDistanceThreshold )
+					{
+						return false;
+					}
+				}
+			}
+			return true;
+		}
+
 		private void InitLandmarks() {
 			landmarks = Resources.LoadAll("landmarks", typeof(GameObject));
 			float localGridWidth = boardWidth/Mathf.Sqrt((float)nLandmarks);
@@ -82,7 +125,7 @@ namespace Flight {
 				float localLeftBorder = i*localGridWidth;
 				for (int j = 0; j < Mathf.Sqrt((float)nLandmarks); j++) {
 						float localBottomBorder = j*localGridHeight;
-						Vector3 rand_pos = new Vector3(Random.RandomRange(localLeftBorder-boardWidth/2,localLeftBorder+localGridWidth-boardWidth/2), Random.RandomRange(localBottomBorder-boardWidth/2,localBottomBorder + localGridHeight - boardWidth/2));
+					Vector3 rand_pos = new Vector3(Random.RandomRange(localLeftBorder-boardWidth/2,localLeftBorder+localGridWidth-boardWidth/2), Random.RandomRange(localBottomBorder-boardHeight/2,localBottomBorder + localGridHeight - boardHeight/2));
 						GameObject obj = Instantiate(landmarks[Random.Range(0,landmarks.Length)], rand_pos,  Quaternion.identity) as GameObject;
 						CloneGameObject(obj, CheckRegion(obj));
 						obj.transform.SetParent(transform);
@@ -95,7 +138,6 @@ namespace Flight {
 		{
 			for (int playerIdx = 0; playerIdx < players.Count; playerIdx++) 
 			{
-//				UpdateAgentRegion(playerIdx);
 				UpdateAgentRegion(playerIdx, ref players, ref playersRegion, ref playersClones);
 			}
 			for (int enemyIdx = 0; enemyIdx < enemies.Count; enemyIdx++)
