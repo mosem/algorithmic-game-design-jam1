@@ -4,17 +4,25 @@ using System.Collections;
 namespace Flight{
 
 public class TileGenerator : MonoBehaviour {
-	[SerializeField] private int size_x;
-	[SerializeField] private int size_y;
-	[SerializeField] private float tileSize;
+	private int size_x;
+	private int size_y;
+	private float tileSize = 1.0f;
 	[SerializeField] private int tileResolution;
+
+		private BoardManager boardManager;
 	
 	public Texture2D texture;
 	
 	// Use this for initialization
 	void Start () {
+		boardManager = GetComponentInParent<BoardManager>();
+		size_x = (int)(boardManager.boardWidth + boardManager.boardPadding*2);
+		size_y = (int)(boardManager.boardHeight + boardManager.boardPadding*2);
+		Vector3 planePosition = new Vector3(-size_x/2,size_y/2);
+		transform.position = planePosition;
 		BuildMesh(transform);
 		BuildTexture(transform);
+		
 	}
 	
 	private void BuildMesh(Transform plane) {
@@ -63,7 +71,7 @@ public class TileGenerator : MonoBehaviour {
 		
 		// Assign our mesh to our filter/renderer/collider
 		MeshFilter mesh_filter = plane.GetComponent<MeshFilter>();
-		MeshCollider mesh_collider = plane.GetComponent<MeshCollider>();
+//		MeshCollider mesh_collider = plane.GetComponent<MeshCollider>();
 		
 		mesh_filter.mesh = mesh;
 	}

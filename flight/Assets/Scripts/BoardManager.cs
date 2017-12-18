@@ -12,31 +12,34 @@ namespace Flight {
 		public Object[] landmarks;
 		public List<GameObject> players;
 		public List<GameObject> enemies;
-		public GameObject footprint;
-		public int nLandmarks = 16;
-		[SerializeField] private static float boardWidth = 40.0f;
-		[SerializeField] private static float boardHeight = 40.0f;
-		[SerializeField] private static float boardPadding = 5.0f;
-		[SerializeField] private float footprintsDelay = 10.0f;
-		[SerializeField] private float initialDistanceThreshold = 7.0f;
+		[SerializeField] public float boardWidth = 80.0f;
+		[SerializeField] public float boardHeight = 80.0f;
+		[SerializeField] public float boardPadding = 5.0f;
+		[SerializeField] private int nLandmarks = 16;
+//		[SerializeField] private float footprintsDelay = 10.0f;
+		[SerializeField] private float initialDistanceThreshold = 7.5f;
 		[SerializeField] private int nTriesToPlacePlayer = 10;
+		[SerializeField] private string LANDMARK_LAYER = "Game";
 
 		private List<List<GameObject>> playersClones;
-		private List<GameObject>[] playersFootprints;
+		public List<GameObject> footprints;
 		private List<List<GameObject>> enemiesClones;
 
 		private List<Region> playersRegion;
 		private List<Region> enemiesRegion;
 
-		private Vector3 shiftHorizontalVec = new Vector3(boardWidth,0);
-		private Vector3 shiftVerticalVec = new Vector3(0,boardHeight);
+		private Vector3 shiftHorizontalVec;
+		private Vector3 shiftVerticalVec;
 
 		public GameObject enemy;                // The enemy prefab to be spawned.
 		public float spawnTime = 10f;            // How long between each spawn.
 
+
 		// Use this for initialization
 		void Start () {
 			InitLandmarks();
+			shiftHorizontalVec = new Vector3(boardWidth,0);
+			shiftVerticalVec = new Vector3(0,boardHeight);
 			players = new List<GameObject>();
 			players.AddRange(GameObject.FindGameObjectsWithTag("Player"));
 			playersRegion = new List<Region>(players.Count);
@@ -52,11 +55,11 @@ namespace Flight {
 					playersClones[playerIdx].AddRange(CloneGameObject(players[playerIdx], playerRegion));
 				}
 			}
-			footprint = Resources.Load("footprint", typeof(GameObject)) as GameObject;
 			enemies = new List<GameObject>();
 			enemiesRegion = new List<Region>();
 			enemiesClones = new List<List<GameObject>>();
 			InvokeRepeating ("SpawnEnemy", spawnTime, spawnTime);
+			footprints = new List<GameObject>();
 		}
 
 		// Update is called once per frame
@@ -64,10 +67,74 @@ namespace Flight {
 				updateAgents();
 		}
 
+		public List<Vector3> GetPlayersPositionsInRadius(Vector3 center, float radius)
+		{
+			List<Vector3> positions = new List<Vector3>();
+			foreach (GameObject player in players) 
+			{
+				if ((player.transform.position - center).sqrMagnitude < radius)
+				{
+					positions.Add(player.transform.position);
+				}
+
+			}
+			foreach (List<GameObject> clones in playersClones)
+			{
+				foreach (GameObject clone in clones)
+				{
+					if ((clone.transform.position - center).sqrMagnitude < radius)
+					{
+						positions.Add(clone.transform.position);
+					}
+
+				}
+
+			}
+			return positions;
+		}
+
+		public List<Vector3> GetFootprintsPositionsInRadius(Vector3 center, float radius)
+		{
+			List<Vector3> positions = new List<Vector3>();
+
+			foreach (GameObject footprint in footprints)
+			{
+				if (footprint != null && (footprint.transform.position - center).sqrMagnitude < radius)
+				{
+					positions.Add(footprint.transform.position);
+				}
+			}
+
+			return positions;
+		}
+
 		public void AddFootprint(GameObject footprint, Vector3 position, float lifetime)
 		{
-			GameObject playerFootprint = Instantiate(footprint, position, Quaternion.identity);
-			Destroy(playerFootprint, lifetime);
+			GameObject footprintObj = Instantiate(footprint, position, Quaternion.identity);
+			footprints.Add(footprintObj);
+//			Destroy(footprintObj, lifetime);
+			StartCoroutine(DestroyFootprint(footprintObj,lifetime));
+		}
+
+		private IEnumerator DestroyFootprint(GameObject footprint,float delay)
+		{
+			yield return new WaitForSeconds(delay);
+			DestroyFootprint(footprint);
+		}
+
+		public void DestroyFootprint(GameObject footprint)
+		{
+			for (int i = footprints.Count-1; i > -1; i--)
+			{
+				
+
+				if (footprint.GetInstanceID() == footprints[i].GetInstanceID())
+				{
+					footprints.RemoveAt(i);
+					break; // only one instance of footprint should be in list
+				}
+			}
+			Destroy(footprint);
 		}
 
 		void SpawnEnemy()
@@ -83,7 +150,7 @@ namespace Flight {
 
 		private Vector3 GetRandomPositionOnBoard(int thisPlayerIdx)
 		{	
-			Vector3 potentialPosition = new Vector3(Random.RandomRange(-boardWidth/2, boardWidth/2), Random.RandomRange(-boardHeight/2, boardHeight/2));
+			Vector3 potentialPosition = new Vector3(Random.Range(-boardWidth/2, boardWidth/2), Random.Range(-boardHeight/2, boardHeight/2));
 			if (thisPlayerIdx != 0)
 			{
 				for (int i = 0; i < nTriesToPlacePlayer; i++)
@@ -93,7 +160,7 @@ namespace Flight {
 						break;
 					} 
 					else {
-						potentialPosition = new Vector3(Random.RandomRange(-boardWidth/2, boardWidth/2), Random.RandomRange(-boardHeight/2, boardHeight/2));
+						potentialPosition = new Vector3(Random.Range(-boardWidth/2, boardWidth/2), Random.Range(-boardHeight/2, boardHeight/2));
 					}
 				}
 			}
@@ -102,10 +169,13 @@ namespace Flight {
 
 		// returns true if it is far away from other players, otherwise returns false
 		private bool checkPlayerPositionVsOtherPlayersPositions(Vector3 pos, int thisPlayerIdx)
-		{
-			for (int playerIdx = 0; playerIdx < thisPlayerIdx; playerIdx++)
+		{ 
+			for (int otherPlayerIdx = 0; otherPlayerIdx < thisPlayerIdx; otherPlayerIdx++)
 			{
-				foreach (GameObject clone in playersClones[playerIdx])
+				if (Vector3.Distance(players[otherPlayerIdx].transform.position, pos) < initialDistanceThreshold){
+					return false;
+				}
+				foreach (GameObject clone in playersClones[otherPlayerIdx])
 				{
 					if (Vector3.Distance(clone.transform.position, pos) < initialDistanceThreshold )
 					{
@@ -120,15 +190,16 @@ namespace Flight {
 			landmarks = Resources.LoadAll("landmarks", typeof(GameObject));
 			float localGridWidth = boardWidth/Mathf.Sqrt((float)nLandmarks);
 			float localGridHeight = boardHeight/Mathf.Sqrt((float)nLandmarks);
-			float localRadius = Mathf.Min(localGridWidth, localGridHeight)/2.0f;
+//			float localRadius = Mathf.Min(localGridWidth, localGridHeight)/2.0f;
 			for(int i = 0; i < Mathf.Sqrt((float)nLandmarks); i++) {
 				float localLeftBorder = i*localGridWidth;
 				for (int j = 0; j < Mathf.Sqrt((float)nLandmarks); j++) {
-						float localBottomBorder = j*localGridHeight;
-					Vector3 rand_pos = new Vector3(Random.RandomRange(localLeftBorder-boardWidth/2,localLeftBorder+localGridWidth-boardWidth/2), Random.RandomRange(localBottomBorder-boardHeight/2,localBottomBorder + localGridHeight - boardHeight/2));
-						GameObject obj = Instantiate(landmarks[Random.Range(0,landmarks.Length)], rand_pos,  Quaternion.identity) as GameObject;
-						CloneGameObject(obj, CheckRegion(obj));
-						obj.transform.SetParent(transform);
+					float localBottomBorder = j*localGridHeight;
+					Vector3 rand_pos = new Vector3(Random.Range(localLeftBorder-boardWidth/2,localLeftBorder+localGridWidth-boardWidth/2), Random.Range(localBottomBorder-boardHeight/2,localBottomBorder + localGridHeight - boardHeight/2));
+					GameObject obj = Instantiate(landmarks[Random.Range(0,landmarks.Length)], rand_pos,  Quaternion.identity) as GameObject;
+					CloneGameObject(obj, CheckRegion(obj));
+					obj.transform.SetParent(transform);
+					obj.GetComponent<SpriteRenderer>().sortingLayerName = LANDMARK_LAYER;
 				}
 				
 			}

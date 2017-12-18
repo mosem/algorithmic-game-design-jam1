@@ -13,9 +13,10 @@ namespace Flight
 		public BoardManager board;
 
 		[SerializeField] private static float footprintSpacing = .5f;
-		[SerializeField] private static float footprintLifetime = 45.0f;
+		[SerializeField] private static float footprintLifetime = 20.0f;
 
 		private Rigidbody2D body;
+		[SerializeField] private Vector2 footprintOffset = new Vector2(0,-0.4f);
 
 		// Use this for initialization
 		void Start () {
@@ -31,7 +32,7 @@ namespace Flight
 		public void AddFootprint(){
 			if ((body.position - previousPosition).magnitude > footprintSpacing)
 			{
-				board.AddFootprint(footprint,body.position, footprintLifetime);
+				board.AddFootprint(footprint,body.position + footprintOffset, footprintLifetime);
 				previousPosition = body.position;
 			}
 		}

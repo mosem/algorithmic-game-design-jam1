@@ -10,19 +10,21 @@ class GridMove : MonoBehaviour {
 	
 	private Animator animator;
 
-    private Vector2 initialPosition;
+//    private Vector2 initialPosition;
 
     private Vector2 inputVelocity;
 
 	public Controller controller;
 
 	[SerializeField] private bool facingRight;
+
+	[SerializeField] public bool isAlive;
 	
 	[SerializeField] private float speed = 1.0f;
 
-	[SerializeField] private float horizontalLimit = 20;
+//	[SerializeField] private float horizontalLimit = 20;
 
-	[SerializeField] private float verticalLimit = 20;
+//	[SerializeField] private float verticalLimit = 20;
 
 
 	public int dir;
@@ -30,8 +32,10 @@ class GridMove : MonoBehaviour {
 	protected void Awake() {
         body = GetComponent<Rigidbody2D>();
 		animator = GetComponent<Animator>();
-        initialPosition = body.position;
+//        initialPosition = body.position;
 		facingRight = true;
+		isAlive = true;
+		dir = 0;
     }
 
 	protected void Update ()
@@ -39,7 +43,7 @@ class GridMove : MonoBehaviour {
 
         // Handle keyboard input.
 //		inputVelocity = new Vector2(Input.GetAxis(horizontalCtrl), Input.GetAxis(verticalCtrl));
-		inputVelocity = controller.GetInputVelocity();
+		inputVelocity = isAlive ? controller.GetInputVelocity() : new Vector2(0,0);
 
 		// Set direction for Animator
 		dir = 0;
@@ -74,7 +78,7 @@ class GridMove : MonoBehaviour {
 
 	protected void FixedUpdate() {
 
-		body.velocity = inputVelocity;
+		body.velocity = inputVelocity*speed;
 		
     }
 

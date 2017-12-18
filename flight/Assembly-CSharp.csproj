@@ -49,13 +49,17 @@
      <Compile Include="Assets\Scripts\BoardManager.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\Controller.cs" />
+     <Compile Include="Assets\Scripts\EnemyCollisionDetector.cs" />
      <Compile Include="Assets\Scripts\EnemyController.cs" />
      <Compile Include="Assets\Scripts\EnemyManager.cs" />
      <Compile Include="Assets\Scripts\EnemySenses.cs" />
      <Compile Include="Assets\Scripts\Footprint.cs" />
      <Compile Include="Assets\Scripts\FootprintCreator.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\GridMove.cs" />
      <Compile Include="Assets\Scripts\ObjectCloner.cs" />
+     <Compile Include="Assets\Scripts\ObjectSorter.cs" />
+     <Compile Include="Assets\Scripts\PlayerCollisionDetector.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\RepeatSprite.cs" />
      <Compile Include="Assets\Scripts\SphericalMapping.cs" />

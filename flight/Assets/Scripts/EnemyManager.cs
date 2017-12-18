@@ -17,7 +17,7 @@ public class EnemyManager : MonoBehaviour
 		Vector2 position = new Vector2(Random.Range(-10, 10), Random.Range(-10, 10));
 
         // Create an instance of the enemy prefab at the randomly selected spawn point's position and rotation.
-		GameObject enemyObject = Instantiate(enemy, position, Quaternion.identity);
+		Instantiate(enemy, position, Quaternion.identity);
     }
 }
 }
