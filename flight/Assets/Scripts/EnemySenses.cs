@@ -75,7 +75,7 @@ public class EnemySenses : MonoBehaviour {
 					minHeading = targetHeading;
 				}
 			}
-			return minHeading;
+			return minHeading.normalized;
 		}
 }
 }

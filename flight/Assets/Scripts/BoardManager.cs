@@ -72,7 +72,7 @@ namespace Flight {
 			List<Vector3> positions = new List<Vector3>();
 			foreach (GameObject player in players) 
 			{
-				if ((player.transform.position - center).sqrMagnitude < radius)
+				if ((player.transform.position - center).sqrMagnitude < Mathf.Pow(radius,2.0f))
 				{
 					positions.Add(player.transform.position);
 				}
@@ -82,7 +82,7 @@ namespace Flight {
 			{
 				foreach (GameObject clone in clones)
 				{
-					if ((clone.transform.position - center).sqrMagnitude < radius)
+					if ((clone.transform.position - center).sqrMagnitude < Mathf.Pow(radius,2.0f))
 					{
 						positions.Add(clone.transform.position);
 					}

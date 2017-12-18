@@ -12,8 +12,8 @@ namespace Flight
 
 		public BoardManager board;
 
-		[SerializeField] private static float footprintSpacing = .5f;
-		[SerializeField] private static float footprintLifetime = 20.0f;
+		[SerializeField] private float footprintSpacing = .5f;
+		[SerializeField] private float footprintLifetime = 10.0f;
 
 		private Rigidbody2D body;
 		[SerializeField] private Vector2 footprintOffset = new Vector2(0,-0.4f);
