@@ -11,7 +11,7 @@ namespace Flight {
 
 		public override Vector2 GetInputVelocity ()
 		{
-			return senses.GetHeading();
+			return senses.GetHeading().normalized;
 		}
 
 	}

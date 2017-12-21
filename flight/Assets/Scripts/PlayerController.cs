@@ -9,7 +9,7 @@ public class PlayerController : Controller {
 
 	public override Vector2 GetInputVelocity ()
 	{
-		return new Vector2(Input.GetAxis(horizontalCtrl), Input.GetAxis(verticalCtrl));
+			return new Vector2(Input.GetAxis(horizontalCtrl), Input.GetAxis(verticalCtrl)).normalized;
 	}
 
 	public void Awake()

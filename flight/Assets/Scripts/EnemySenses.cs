@@ -6,8 +6,8 @@ namespace Flight{
 public class EnemySenses : MonoBehaviour {
 
 		private BoardManager boardManager;
-		[SerializeField] private float VISION_THRESH = 20.0f;
-		[SerializeField] private float SMELL_THRESH = 30.0f;
+		[SerializeField] private float VISION_THRESH = 15.0f;
+		[SerializeField] private float SMELL_THRESH = 20.0f;
 	//	public GameObject[] players;
 	//	public Vector2[] headings;
 
@@ -46,7 +46,7 @@ public class EnemySenses : MonoBehaviour {
 //				Debug.Log("detected footprint");
 				return GetMinHeading(footprintPositions);
 			}
-			return new Vector3(Random.Range(-1, 1), Random.Range(-1, 1));
+			return new Vector3(Random.Range(-1, 1), Random.Range(-1, 1)).normalized;
 		}
 
 //		public Vector3 GetClosestPlayerHeading ()
